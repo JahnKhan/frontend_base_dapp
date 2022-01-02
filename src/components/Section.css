@@ -1,0 +1,9 @@
+.section{
+    background-color:rgb(0, 0, 0);
+    height: 80vh;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+

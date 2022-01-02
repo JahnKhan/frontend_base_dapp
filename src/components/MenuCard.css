@@ -1,0 +1,121 @@
+.menuCard{
+ 
+   background-color: rgb(0, 0, 0);
+   justify-content: center; 
+   margin-top: 50px;
+   margin-bottom: 50px;
+   position: relative;
+}
+.titleContainer>p{
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+.buttonPictureContainer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin-top: 30px;
+  
+    
+}
+.buttonPictureContainer>img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    border-color: black;
+
+   
+    
+}
+.buttonPictureContainer>button{
+    height: 35px;
+    width: 150px;
+    
+
+}
+.buttonBuy:hover {
+    box-shadow: 0 0 30px rgba(0, 247, 255, 0.959);
+   
+  }
+
+.buttonBuy{
+    color: rgb(104, 107, 109);
+    background-color: black;
+    border: 2px solid ;
+    border-color: rgb(104, 101, 101);
+    font-weight: 700;
+    box-shadow: 0 0 30px rgb(194, 12, 164);
+  
+    
+}
+
+.buttonopeseaContainer{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.buttonopeseaContainer>button{
+    margin: 5px;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.buttonopeseaContainer>button:hover{
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
+.openseaButton{
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: whitesmoke ;
+
+}
+
+.etherescanButton{
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: whitesmoke ;
+}
+
+.infoTitle{
+    color: whitesmoke;
+}
+
+.scrollDownContainer{
+    border-radius: 40px;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: black;
+    margin-top: 100px;
+}
+
+.scrollDownContainer>div{
+   background-color: rgb(191, 19, 197);
+   border-radius: 30px;
+   padding: 6px;
+   justify-content: center;
+   display: flex;
+   width: 25px;
+   height: 25px;
+}
+
+.scrollDownContainer>div:hover{
+    background-color: rgb(7, 255, 255);
+}
+

@@ -1,0 +1,51 @@
+.header {
+    background-color: rgb(24, 101, 245);
+    color: antiquewhite;
+    height: 50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgb(167, 167, 167);
+    
+}
+
+.header > div {
+    margin: 10px;
+}
+.legendsLogo{
+    width: 100px;
+    height: 30px;
+}
+
+.headerItems{
+    display: flex;;
+}
+
+.headerItems>p{
+    margin: 5px;
+    font-size: 11px;
+    
+}
+
+.buttonContainerHeader{
+    display: flex;
+}
+
+.buttonContainerHeader>img{
+   margin-left: 5px;
+   height: 20px;
+   padding: 5px;
+}
+.buttonConnected{
+   text-align: center;
+   background-color: rgb(226, 43, 134);
+   color: rgb(255, 255, 255);            
+   box-shadow: 0 0 5px #eee;
+   border-radius: 10px;
+   align-items: center;
+   display: flex;
+   padding: 5px;
+   font-size: 12px;
+   
+ }
